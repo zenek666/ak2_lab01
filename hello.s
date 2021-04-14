@@ -75,7 +75,7 @@ done: # w eax rozmiar wczytanego ciagu
 
     h:
     push %ebx
-    movl $77, %esi
+    movl $78, %esi
     movl %eax, %edx
     sub %esi, %edx
     movl $65, %ebx
@@ -103,7 +103,7 @@ done: # w eax rozmiar wczytanego ciagu
 
 j:
     pushl %ebx
-    movl $109, %esi
+    movl $110, %esi
     movl %eax, %edx
     sub %esi, %edx
     movl $97, %ebx
